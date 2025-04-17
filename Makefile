@@ -4,7 +4,7 @@ install:
 develop:
 	npm run dev
 
-linter:
+lint:
 	npx eslint .
 
 build:
