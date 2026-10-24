@@ -1,0 +1,12 @@
+{
+  "ignorePatterns": [
+    "node_modules/",
+    "dist/",
+    "*.json",
+    "*.md",
+    "*.yml",
+    "*.yaml",
+    "*.css",
+    "*.html"
+  ]
+}

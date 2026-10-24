@@ -6,7 +6,10 @@ develop:
 	npm run dev
 
 lint:
-	npx eslint .
+	npx oxlint --deny-warnings && npx oxfmt --check
+
+lint-fix:
+	npx oxfmt && npx oxlint --fix
 
 build:
 	NODE_ENV=production npm run build

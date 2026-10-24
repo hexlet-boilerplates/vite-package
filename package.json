@@ -9,9 +9,8 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@eslint/js": "^10.0.1",
-    "eslint": "^10.13.0",
-    "globals": "^17.13.0",
+    "oxfmt": "^0.74.0",
+    "oxlint": "^1.89.0",
     "vite": "^8.3.5"
   }
 }

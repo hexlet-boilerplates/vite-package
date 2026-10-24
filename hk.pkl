@@ -3,6 +3,7 @@ amends "package://github.com/jdx/hk/releases/download/v2.8.1/hk@2.8.1#/Config.pk
 steps {
     ["lint"] {
         check = "make lint"
+        fix = "make lint-fix"
     }
 }
 
