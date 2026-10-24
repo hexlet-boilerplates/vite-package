@@ -2,6 +2,12 @@
 
 [![Node CI](https://github.com/hexlet-boilerplates/vite-package/actions/workflows/nodejs.yml/badge.svg)](https://github.com/hexlet-boilerplates/vite-package/actions/workflows/nodejs.yml)
 
+## Requirements
+
+- Unix system (Macos/Linux)
+- Make
+- [mise](https://mise.jdx.dev), он ставит Node.js (версия в `mise.toml`)
+
 ## Setup
 
 ```sh
