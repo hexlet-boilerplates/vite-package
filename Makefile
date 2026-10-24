@@ -7,6 +7,9 @@ develop:
 
 lint:
 	npx oxlint --deny-warnings && npx oxfmt --check
+	rumdl check .
+	typos
+	jactionlint
 
 lint-fix:
 	npx oxfmt && npx oxlint --fix
