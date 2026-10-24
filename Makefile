@@ -10,6 +10,7 @@ lint:
 	rumdl check .
 	typos
 	jactionlint
+	$(MAKE) --no-print-directory knip
 
 lint-fix:
 	npx oxfmt && npx oxlint --fix
@@ -19,3 +20,7 @@ build:
 
 test:
 	echo no tests
+
+# Только отчёт, без --fix: находки решает человек
+knip:
+	npx knip
