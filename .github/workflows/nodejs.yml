@@ -29,8 +29,9 @@ jobs:
         env:
           CI: true
 
+      # Те же шаги, что в git-хуке: hk.pkl
       - name: Run linter
-        run: make lint
+        run: mise exec -- hk check --all
 
       - name: Run tests
         run: make test

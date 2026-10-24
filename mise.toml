@@ -1,3 +1,6 @@
 # Инструменты проекта. Версии ставит mise, в CI их берёт jdx/mise-action.
 [tools]
 node = "latest"
+# Запускает проверки из hk.pkl в git-хуках и в CI (`hk check --all`)
+hk = "latest"
+pkl = "latest"

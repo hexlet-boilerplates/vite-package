@@ -14,6 +14,8 @@
 make install
 ```
 
+Команда `make install` ставит и git-хуки через hk.
+
 ## Run
 
 ```sh
