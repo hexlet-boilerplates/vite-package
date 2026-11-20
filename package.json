@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "knip": "^6.44.1",
-    "oxfmt": "^0.77.0",
-    "oxlint": "^1.92.0",
-    "vite": "^8.3.6"
+    "knip": "^6.45.1",
+    "oxfmt": "^0.78.0",
+    "oxlint": "^1.93.0",
+    "vite": "^8.3.8"
   }
 }
